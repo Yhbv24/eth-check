@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  font-family: 'Yantramanav', sans-serif;
+  h2 {
+    margin: 5px auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 125px;
+    &:hover {
+      cursor: pointer;
+    }
+    &:active {
+      padding: 13px;
+      font-size: 1.6em;
+    }
+  }
+}
